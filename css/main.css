@@ -1,0 +1,177 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 20px;
+	color: #bfbdbe;
+	background: #777378 url(../img/background.jpg) center center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1, h2, button{
+	font-family: Teko, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 120px;
+	line-height: 1em;
+	letter-spacing: 12px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 30px;
+	letter-spacing: 4px;
+	margin-bottom: 30px;
+}
+
+input{
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	width: 350px;
+	padding: 14px;
+	font-size: 16px;
+	margin-bottom: 32px;
+}
+
+button{
+	font-size: 20px;
+	letter-spacing: 4px;
+	padding: 18px;
+	color: #fff;
+	background-color: #f63c3c;
+	border: 0;	
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+	max-width: 1170px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.top_bar{
+	margin-bottom: 100px;
+}
+
+.logo{
+	float: left;
+}
+
+nav{
+	float: right;
+}
+
+nav ul{
+	display: none;
+}
+
+.menu{	
+	width: 70px;
+	height: 70px;
+	padding: 27px 22px;
+	background-color: #352d2f;
+}
+
+.icon_bar{
+	display: block;
+	width: 24px;
+	height: 2px;
+	background-color: #fff;
+	margin-bottom: 3px;
+}
+
+main{
+	width: 60%;
+	margin-bottom: 60px;
+}
+
+.lead{
+	font-size: 26px;
+	font-weight: 300;
+	color: #d9d8d9;
+	line-height: 32px;
+	margin-bottom: 30px;
+}
+
+aside{
+	width: 50%;
+}
+
+aside p{
+	font-size: 18px;
+	margin-bottom: 32px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-family: 'Teko', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	margin-bottom: 16px;
+}
+
+
+.social_media {
+	width: 310px;
+	color: #dfdfdf;
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 146px;
+}
+
+.icon {
+	margin-bottom: 95px;
+	margin-right: 45px;
+	display: inline;
+	float: left;
+}
+
+time {
+	display: block;
+	font-family: 'Teko', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #959595;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+
+.facebook, .linkedin {
+	display: none;
+}
+
+footer {
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #878686;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
