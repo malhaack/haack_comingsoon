@@ -1,3 +1,4 @@
+/*THIS IS "COMING SOON"*/
 *{
 	box-sizing: border-box;
 }
@@ -124,7 +125,7 @@ h3 {
 	font-size: 20px;
 	font-weight: 300;
 	letter-spacing: 3px;
-	margin-bottom: 16px;
+	margin-bottom: 10px;
 }
 
 
@@ -134,14 +135,24 @@ h3 {
 	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 300;
-	margin-bottom: 146px;
+	margin-bottom: 100px;
 }
 
-.icon {
-	margin-bottom: 95px;
-	margin-right: 45px;
-	display: inline;
+i {
 	float: left;
+	margin-right: 20px;
+	margin-bottom: 75px;
+}
+
+li {
+	margin-bottom: 25px;
+}
+
+.facebook i {
+	display: block;
+	margin-right: 20px;
+	margin-bottom: 0;
+	padding-bottom: 10px;
 }
 
 time {
@@ -149,13 +160,11 @@ time {
 	font-family: 'Teko', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	color: #959595;
-	margin-top: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 	text-transform: uppercase;
 }
 
-.facebook, .linkedin {
-	display: none;
-}
 
 footer {
 	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
@@ -164,6 +173,9 @@ footer {
 	margin-bottom: 30px;
 }
 
+
+/* fix icon stuff
+add styling for other social media*/
 
 
 
